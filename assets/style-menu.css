@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fila-1 {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.fila-1 h1 {
+    color: red;
+}
+
+.fila-1 p {
+    font-weight: 700;
+}
+
+.fila-2 {
+    margin-top: 10px;
+    padding: 10px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #00000069;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.menu li a:hover {
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+}
+
+main {
+    background-image: url(../image/hamburguesa.jpg);
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-menu {
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.menu-section {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+
+.menu-section h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
